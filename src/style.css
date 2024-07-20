@@ -1,1 +1,68 @@
+body {
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/134/527/original/pexels-pixabay-326055-2.jpg?1721503938");
+}
 
+a {
+  color: #87d2fa;
+}
+
+.container {
+  max-width: 625px;
+  margin: 120px auto;
+}
+
+header {
+  margin-bottom: 20px;
+}
+
+h1 {
+  color: #feffff;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  font-size: 40px;
+}
+
+.form-and-story {
+  background-color: #87d2fa;
+  border-radius: 15px;
+  border: 1px solid #5fa4fd;
+}
+
+form {
+  padding: 30px;
+  display: flex;
+}
+
+.input-text-box {
+  padding: 16px;
+  width: 80%;
+  border-radius: 15px;
+  border: 1px solid #87d2fa;
+  background-color: #feffff;
+  font-size: 16px;
+  box-shadow: 5px 5px 5px rgba(128, 128, 128, 0.5);
+}
+
+.submit-button {
+  background-color: #5fa4fd;
+  color: black;
+  border-radius: 15px;
+  margin-left: 10px;
+  border: none;
+  font-size: 16px;
+  width: 100px;
+  box-shadow: 5px 5px 5px rgba(128, 128, 128, 0.5);
+}
+
+.story {
+  font-size: 16px;
+  padding: 20px;
+  line-height: 1.5;
+}
+
+footer {
+  text-align: center;
+  font-size: 14px;
+  margin-top: 25px;
+  color: #feffff;
+}
