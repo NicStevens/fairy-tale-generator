@@ -10,7 +10,7 @@ function displayFairyTale(response) {
 function generateFairyTale(event) {
   event.preventDefault();
   let generatingMessage = document.querySelector("#story");
-  generatingMessage.innerHTML = "Generating Fairy Tale 🍄...";
+  generatingMessage.innerHTML = "🍄 Generating Fairy Tale...";
 
   let userInput = document.querySelector("#user-input");
   let apiKey = "fb24932f22a0f4a4b10t5cee3cc7fo79";
